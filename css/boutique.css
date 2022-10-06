@@ -9,3 +9,39 @@ font-family: 'Amiri', serif;*/
 /* Tout le reste du texte : Maitree light
    
 font-family: 'Maitree', serif; */   
+
+/*  HEADER SECTION FOND FOOTTER (NE PAS TOUCHER) */
+
+.conteneur{
+    display: flex;
+}
+/* Header */
+
+header{
+    background-color: aqua;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: fixed;
+}
+
+
+/* Logo */
+
+.logo-titre{
+    padding-left: 10%;
+    background-color: white;
+}
+
+h1{
+    font-family: 'Italianno', cursive;
+    font-size: 90px;
+    font-weight: 400;
+}
+
+h2{
+    font-family: 'Amiri', serif;
+}
+/* MAIN */
+main{
+    margin-left: 32%;
+}
