@@ -10,38 +10,168 @@ font-family: 'Amiri', serif;*/
    
 font-family: 'Maitree', serif; */   
 
-/*  HEADER SECTION FOND FOOTTER (NE PAS TOUCHER) */
+/*  HEADER SECTION FOND FOOTTER MAP NAV ET HAUT DU MAIN (NE PAS TOUCHER !!!) */
 
 .conteneur{
     display: flex;
 }
+
 /* Header */
 
 header{
     background-color: aqua;
-    padding-bottom: 0;
+    padding-bottom: 65%;
     margin-bottom: 0;
     position: fixed;
+    margin-top: 0;
+    width: 26%;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border: solid black 2px;
 }
 
 
-/* Logo */
+/* Header Logo */
 
 .logo-titre{
     padding-left: 10%;
     background-color: white;
+    margin-left: 4%;
+    margin-right: 12%;
+    padding-left: 2%;
+    padding-bottom: 0.2%;
+    margin-bottom: 10%;
+    border: ridge black 2px;
+    margin-top: 3%;
 }
 
 h1{
     font-family: 'Italianno', cursive;
-    font-size: 90px;
+    font-size: 150px;
     font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 120px;
+    margin-top: 3%;
+    padding-top: 0;
 }
 
 h2{
     font-family: 'Amiri', serif;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 2%;
+    font-weight: 600;
 }
+
+/* HEADER NAV */
+
+ul{
+    list-style-type: none;
+}
+
+li{
+   margin-bottom: 9%;
+   font-family: 'Maitree', serif;
+   font-size: 37px;
+   font-weight: 700;
+}
+
+li a{
+    text-decoration: none;
+    color: #303030;
+}
+
+li a:hover{
+    color: #0f0606;
+}
+
+/* HEADER MAP */
+
+iframe{
+    width: 90%;
+    height: 250px;
+}
+
+section iframe{
+    padding-left: 5%;
+}
+
+/* HEADER RESEAU SOCIAUX*/
+
+.reseau-social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.insta img{
+    width: 50px;
+    height: 50px;
+}
+
+.fb img{
+    width: 50px;
+    height: 50px;
+}
+
+.tw img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
 /* MAIN */
 main{
-    margin-left: 32%;
+    margin-left: 26.22%;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    
 }
+
+main img{
+    width: 100%;
+}
+
+/* MAIN CHOSE*/
+
+.chose {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+    margin: 0;
+}
+
+.chose img{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-top: 15%;
+}
+
+#barre-recherce{
+    padding-right: 50%;
+    height: 30px;
+    margin-top: 1.3%;
+    border: solid black 1px;
+}
+
+::placeholder {
+    width: 300px;
+  }
+
+.compte{
+    margin-left: 170%;
+    padding-top: 10%;
+}
+
+
+
+
+
