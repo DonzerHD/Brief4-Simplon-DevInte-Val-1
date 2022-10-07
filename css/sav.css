@@ -143,7 +143,6 @@ main{
 
 main img{
     width: 100%;
-    height: 50%;
 }
 
 /* MAIN CHOSE*/
@@ -192,6 +191,68 @@ footer{
 /* SECTION MIDDLE DEBUT*/
 /* commencer votre code ici */
 
+.contact{
+    font-size: 60px;
+   margin-left: 60px;
+   padding-top: 10px;
+   
+}
 
+.phrase1{
+    font-size: 15px;
+    margin-left: 60px;
+    margin-bottom: 1%;
+    font-family: 'Maitree', serif;
+    
+}
 
+.phrase2{
+    font-size: 15px;
+    margin-left: 60px;
+   margin-bottom: 1%;
+    font-family: 'Maitree', serif;
+}
+
+.pucegera{
+    font-size: 15px;
+    margin-left: 60px;
+    font-family: 'Maitree', serif;
+    list-style-type: initial;
+    margin-bottom: 1%;
+    font-weight: lighter;
+
+}
+.telephone{
+    width: 70px;
+    margin-left: 60px;
+}
+h4{
+    font-size: 25px;
+    margin-left: 60px;
+    padding-top: 10px;
+}
+.cadre1{
+    background-color:rgb(164, 247, 164) ;
+    margin-left: 50px;
+  margin-bottom: 30px;
+ 
+}
+
+.sav{
+    display: flex;
+    
+}
+
+.cadre2{
+    background-color:rgb(251, 251, 251) ;
+    margin-left: 50px;
+   
+}
+
+.cadre3{
+    background-color:rgb(251, 251, 251) ;
+    margin-left: 50px;
+}
+
+  
 /* SECTION MIDDLE FIN */
