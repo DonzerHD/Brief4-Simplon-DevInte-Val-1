@@ -143,10 +143,8 @@ main{
 
 #fond {
     width: 100%;
+    border-bottom: solid 2px black;
 }
-
-
-
 
 /* MAIN CHOSE*/
 
@@ -193,7 +191,30 @@ footer{
 
 /* SECTION MIDDLE DEBUT*/
 /* commencer votre code ici */
+.conteneur1 {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+	gap: 5%;
+	margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+.conteneur1 div {
+	flex: 30%;
+    height: 500px;
+}
 
+.conteneur1 div img{
+    border: black 2px solid;
+    transition: all 0.2s;
+}
+
+.conteneur1 div img:hover{
+    transform:scale(1.2);
+}
 
 /* SECTION MIDDLE FIN */
+
+
