@@ -126,8 +126,7 @@ section iframe{
 /* MAIN */
 main{
     margin-left: 26.22%;
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-    
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); 
 }
 
 main img{
@@ -141,7 +140,6 @@ main img{
     display: flex;
     justify-content: space-around;
     border-bottom: black solid 2px;
-    border-top: black solid 2px;
     margin: 0;
 }
 
@@ -171,7 +169,9 @@ main img{
     padding-top: 10%;
 }
 
+/* FOOTER */
 
-
-
+footer{
+    text-align: center;
+}
 
