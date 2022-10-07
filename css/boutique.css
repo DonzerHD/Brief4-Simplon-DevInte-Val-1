@@ -20,17 +20,14 @@ font-family: 'Maitree', serif; */
 
 header{
     background-color: aqua;
-    padding-bottom: 65%;
-    margin-bottom: 0;
     position: fixed;
+    padding-bottom: 15%;
     margin-top: 0;
     width: 26%;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     border-right: solid black 3px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
 }
 
 
@@ -70,12 +67,19 @@ h2{
 }
 
 /* HEADER NAV */
+
+nav{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;;
+}
 ul{
     list-style-type: none;
+    margin-top: 1%;
 }
 
 li{
-   margin-bottom: 9%;
+   margin-bottom: 10%;
    font-family: 'Maitree', serif;
    font-size: 37px;
    font-weight: 700;
@@ -94,12 +98,12 @@ li a:hover{
 
 iframe{
     width: 70%;
-    height: 250px;
+    height: 13rem;
 }
 
 section iframe{
-    padding-left: 10%;
-    padding-top: 14%;
+    padding-left: 7%;
+    padding-top: 3%;
 }
 
 /* HEADER RESEAU SOCIAUX*/
@@ -107,7 +111,7 @@ section iframe{
 .reseau-social{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 8%;
+    margin-top: 3%;
     margin-right: 5%;
 }
 
@@ -131,7 +135,10 @@ section iframe{
 /* MAIN */
 main{
     margin-left: 26.22%;
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); 
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
 main img{
@@ -146,6 +153,7 @@ main img{
     justify-content: space-around;
     border-bottom: black solid 2px;
     margin: 0;
+    padding-right: 10%;
 }
 
 .chose img{
