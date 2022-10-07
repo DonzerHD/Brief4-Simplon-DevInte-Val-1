@@ -193,16 +193,26 @@ footer{
 /* SECTION MIDDLE DEBUT*/
 /* commencer votre code ici */
 
+
+.conteneur-1{
+    display: flex;
+}
+
 fieldset{
 
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     border-radius:3%;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-  
+    margin-left: 30%;
+    margin-right: 0%;
+    text-align: left;
 }
 
+.home {
+
+    width: 35%;
+}
+
+  
 
 /* SECTION MIDDLE FIN */
 
