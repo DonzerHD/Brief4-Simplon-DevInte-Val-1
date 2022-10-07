@@ -55,20 +55,95 @@
       <div class="chose">
         <input type="search" name="barre-recherce" id="barre-recherce"
           placeholder="Rechercher une marque, un article...">
-          <a href="*"><img class="compte" src="img/account.png" alt=""></a>
-            <a href="*"><img src="img/panier.png" alt=""></a>
+        <a href="*"><img class="compte" src="img/account.png" alt=""></a>
+        <a href="*"><img src="img/panier.png" alt=""></a>
       </div>
-      <img id='fond'src="img/pexels-photo-3755706.jpeg" alt="fond">
+      <img id='fond' src="img/pexels-photo-3755706.jpeg" alt="fond">
       <section class="Middle">
         <!-- A remplir Début-->
-        
-      
+
+        <div id="container">
+          <h1>&bull; Ducsman à votre écoute &bull;</h1>
+          <div class="underline">
+          </div>
+          <br><br>
+
+          <form action="#" method="post" id="contact_form">
+            <class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="Votre nom" name="nom" id="name_input" required>
+              <br>
+              <class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Votre Email" name="email" id="email_input" required>
+                <br>
+                <class="telephone">
+                  <label for="name"></label>
+                  <input type="text" placeholder="N° de Téléphone" name="telephone" id="telephone_input" required>
+                  <br>
+                  <class="subject">
+                    <label for="Voter Demande"></label>
+                    <select placeholder="VOTRE DEMANDE" name="subject" id="subject_input" required>
+                      <option disabled hidden selected>Subject line</option>
+                      <option>Demande de Rendez-vous</option>
+                      <option>Une question sur votre commande</option>
+                      <option>Suivis de votre Commande</option>
+                    </select>
+                    <br>
+                    <class="message">
+                      <label for="message"></label>
+                      <textarea name="message" placeholder="" id="message_input" cols="30" rows="5" required></textarea>
+                      <br>
+                      <class="submit">
+                        <input type="submit" value="Send Message" id="form_button" />
+
+          </form><!-- // End form -->
 
 
-        
+
+
+
+
+          <!--
+          <form action="#" method="post" id="contact_form">
+            <class="name">
+              <label for="name"></label>
+              <input type="text" placeholder="Votre nom" name="nom" id="name_input" required>
+            </div>
+            <div class="email">
+              <label for="email"></label>
+              <input type="email" placeholder="Votre Email" name="email" id="email_input" required>
+            </div>
+            <div class="telephone">
+              <label for="name"></label>
+              <input type="text" placeholder="N° de Téléphone" name="telephone" id="telephone_input" required>
+            </div>
+            <div class="subject">
+              <label for="Voter Demande"></label>
+              <select placeholder="VOTRE DEMANDE" name="subject" id="subject_input" required>
+                <option disabled hidden selected>Subject line</option>
+                <option>Demande de Rendez-vous</option>
+                <option>Une question sur votre commande</option>
+                <option>Suivis de votre Commande</option>
+              </select>
+            </div>
+            <div class="message">
+              <label for="message"></label>
+              <textarea name="message" placeholder="" id="message_input" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+              <input type="submit" value="Send Message" id="form_button" />
+            </div>
+          </form><!-- // End form -->
+        </div><!-- // End #container -->
+
+
+
+
         <!--A remplir Finit -->
       </section>
-      <footer><hr>
+      <footer>
+        <hr>
         <p>&copy; Copyright 2022 Ducsman
         </p>
       </footer>
