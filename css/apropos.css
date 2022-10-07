@@ -189,20 +189,36 @@ footer{
 /* SECTION MIDDLE DEBUT*/
 /* commencer votre code ici */
 
-.img2
+.img2, .imgFondateur
 {
     display:inline-block;
-    margin-left: 17%;
+    margin-left: 10%;
 }
 
-.imgFondateur
-{
-    width: 40%;
-}
 .imgFacade
 {
-    width: 35%;
+    width: 31%;
 }
 
+.block
+{
+    display:inline-block;
+    width: 20%;
+    margin: 14%;
+    border-radius: 50%;
+}
+
+p
+{
+    font-family: 'Maitree', serif;
+    text-align: justify;
+    font-size: larger;
+    font-weight: bold;
+}
+
+h2, p
+{
+    padding: 1%;
+}
 
 /* SECTION MIDDLE FIN */
