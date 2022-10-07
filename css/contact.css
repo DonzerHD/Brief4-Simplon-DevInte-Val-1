@@ -53,6 +53,7 @@ h1{
     height: 120px;
     margin-top: 3%;
     padding-top: 0;
+    text-align: center;
 }
 
 h2{
@@ -63,6 +64,7 @@ h2{
     font-style: italic;
     margin-bottom: 2%;
     font-weight: 600;
+    text-align: center;
 }
 
 /* HEADER NAV */
@@ -191,6 +193,12 @@ footer{
 /* commencer votre code ici */
 
 fieldset{
+
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    border-radius:3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
   
 }
 
