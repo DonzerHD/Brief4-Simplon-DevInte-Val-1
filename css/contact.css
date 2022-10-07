@@ -47,7 +47,7 @@ header{
 h1{
     font-family: 'Italianno', cursive;
     font-size: 150px;
-    font-weight: 400;
+    font-weight: 50;
     padding-bottom: 0;
     margin-bottom: 0;
     height: 120px;
@@ -241,10 +241,12 @@ textarea {
 form {
   padding: 37.5px;
   margin: 50px 0;
-
   margin-left: 20%;
 }
 
+form div{
+    border: solid rgb(218, 81, 81) 2px;
+}
 h1 {
   color: #474544;
   font-size: 15px;
