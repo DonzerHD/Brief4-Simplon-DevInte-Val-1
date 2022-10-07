@@ -9,3 +9,424 @@ font-family: 'Amiri', serif;*/
 /* Tout le reste du texte : Maitree light
    
 font-family: 'Maitree', serif; */  
+
+
+.conteneur{
+    display: flex;
+}
+
+/* Header */
+
+header{
+    background-color: aqua;
+    position: fixed;
+    padding-bottom: 15%;
+    margin-top: 0;
+    width: 26%;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    border-right: solid black 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Header Logo */
+
+.logo-titre{
+    padding-left: 10%;
+    background-color: white;
+    margin-left: 4%;
+    margin-right: 12%;
+    padding-left: 2%;
+    padding-bottom: 0.2%;
+    margin-bottom: 10%;
+    border: ridge black 2px;
+    margin-top: 3%;
+}
+
+h1{
+    font-family: 'Italianno', cursive;
+    font-size: 150px;
+    font-weight: 50;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 120px;
+    margin-top: 3%;
+    padding-top: 0;
+}
+
+h2{
+    font-family: 'Amiri', serif;
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+/* HEADER NAV */
+
+nav{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;;
+}
+ul{
+    list-style-type: none;
+    margin-top: 1%;
+}
+
+li{
+   margin-bottom: 10%;
+   font-family: 'Maitree', serif;
+   font-size: 37px;
+   font-weight: 700;
+}
+
+li a{
+    text-decoration: none;
+    color: #303030;
+}
+
+li a:hover{
+    color: #0f0606;
+}
+
+/* HEADER MAP */
+
+iframe{
+    width: 70%;
+    height: 13rem;
+}
+
+section iframe{
+    padding-left: 7%;
+    padding-top: 3%;
+}
+
+/* HEADER RESEAU SOCIAUX*/
+
+.reseau-social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+.insta img{
+    width: 50px;
+    height: 50px;
+}
+
+.fb img{
+    width: 50px;
+    height: 50px;
+}
+
+.tw img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* MAIN */
+main{
+    margin-left: 26.22%;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#fond {
+    width: 100%;
+}
+
+
+
+
+/* MAIN CHOSE*/
+
+.chose {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    margin: 0;
+    padding-right: 10%;
+}
+
+.chose img{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-right: 0;
+    padding-left: 0;
+    padding-top: 15%;
+}
+
+#barre-recherce{
+    padding-right: 50%;
+    height: 30px;
+    margin-top: 1.3%;
+    border: solid black 1px;
+}
+
+::placeholder {
+    width: 300px;
+  }
+
+.compte{
+    margin-left: 170%;
+    padding-top: 10%;
+}
+
+/* FOOTER */
+
+footer{
+    text-align: center;
+}
+
+/* SECTION MIDDLE DEBUT*/
+/* commencer votre code ici */
+
+
+
+/* SECTION MIDDLE FIN */
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html {
+  font-family: 'Montserrat', Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #F2F3EB;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+textarea {
+  overflow: auto;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+  margin-left: 20%;
+}
+
+form div{
+    border: solid rgb(218, 81, 81) 2px;
+}
+h1 {
+  color: #474544;
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+
+.icon_wrapper {
+  margin: 50px auto 0;
+  width: 100%;
+}
+
+.icon {
+  display: block;
+  fill: #474544;
+  height: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+
+.email {
+	float: right;
+	width: 45%;
+}
+
+input[type='text'], [type='email'], select, textarea {
+	background: #e2d1c3;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 1.000em;
+  font-weight: 400;
+  letter-spacing: 1px;
+	margin: 0em 0 1.875em 0;
+	padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+input[type='text']:focus, [type='email']:focus, textarea:focus {
+	outline: none;
+	padding: 0 0 0.875em 0;
+}
+
+.message {
+	float: none;
+}
+
+.name {
+	float: left;
+	width: 45%;
+}
+
+select {
+  background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.subject {
+  width: 100%;
+}
+
+.telephone {
+  width: 100%;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+  width: 100%;
+}
+
+::-webkit-input-placeholder {
+	color: #474544;
+}
+
+:-moz-placeholder { 
+	color: #474544;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #474544;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #474544;
+}
+
+#form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Helvetica', Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  
+  .underline {
+    width: 68px;
+  }
+  
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  
+  .underline {
+    width: 53px;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+}
+
+.h2 {
+
+    text-align: center;
+}
