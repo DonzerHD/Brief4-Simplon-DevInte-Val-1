@@ -27,6 +27,10 @@ header{
     width: 26%;
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
     border-right: solid black 3px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
 
 
@@ -66,7 +70,6 @@ h2{
 }
 
 /* HEADER NAV */
-
 ul{
     list-style-type: none;
 }
@@ -90,12 +93,13 @@ li a:hover{
 /* HEADER MAP */
 
 iframe{
-    width: 90%;
+    width: 70%;
     height: 250px;
 }
 
 section iframe{
-    padding-left: 5%;
+    padding-left: 10%;
+    padding-top: 14%;
 }
 
 /* HEADER RESEAU SOCIAUX*/
@@ -103,7 +107,8 @@ section iframe{
 .reseau-social{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 3%;
+    margin-top: 8%;
+    margin-right: 5%;
 }
 
 .insta img{
