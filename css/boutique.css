@@ -144,11 +144,10 @@ main{
     width: 100%;
 }
 
-#fond {
+video{
     width: 100%;
-    border-bottom: solid 2px black;
+    height: 90%;
 }
-
 /* MAIN CHOSE*/
 
 .chose {
