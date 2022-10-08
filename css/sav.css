@@ -222,37 +222,92 @@ footer{
     font-weight: lighter;
 
 }
-.telephone{
-    width: 70px;
+.tel{
+    width: 90px;
     margin-left: 60px;
+    text-align: center;
 }
 h4{
     font-size: 25px;
     margin-left: 60px;
     padding-top: 10px;
 }
+
 .cadre1{
-    background-color:rgb(164, 247, 164) ;
-    margin-left: 50px;
-  margin-bottom: 30px;
- 
+background-color: rgb(182, 244, 220);
+text-align: center;
+font-family: 'Maitree', serif;
+margin-left: 100px;
+margin-right: 700px;
+border-style: ridge;
+border-radius: 10px;
+border-width: 7px;
+border-color: rgb(251, 217, 205);
+background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
 }
 
-.sav{
-    display: flex;
-    
+
+.ducs{
+    font-size:35px;
+}
+
+.relation{
+    font-size: 18px;
+    text-align: center;
+}
+
+.tel2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 .cadre2{
-    background-color:rgb(251, 251, 251) ;
-    margin-left: 50px;
+    font-family: 'Maitree', serif;
+    margin-left: 100px;
+margin-right: 700px; 
+    background-color: white;
+    margin-top: 50px;
+    border-style: ridge;
+    border-radius: 10px;
+    border-width: 7px;
+    border-color: rgb(251, 217, 205);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
+
+}
+
+.ducs2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.reseau{
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+.internet{
+    font-family: 'Maitree', serif;
+    margin-left: 100px;
+margin-right: 700px;
+    background-color: white; 
+    font-size: 30px;
+    font-weight: bolder;
+    border-style: ridge;
+    border-radius: 10px;
+border-width: 7px;
+border-color: rgb(251, 217, 205);
+background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
+
+
+}
+.ducs3{
+    font-size: 30px;
+
+}
+
+.silhouette{
+   width: 300px;
    
 }
-
-.cadre3{
-    background-color:rgb(251, 251, 251) ;
-    margin-left: 50px;
-}
-
-  
 /* SECTION MIDDLE FIN */
