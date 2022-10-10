@@ -143,6 +143,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-right: 2px;
 }
 
 video{
@@ -286,25 +287,18 @@ a{
 /* SECTION MIDDLE FIN */
 
 /* NE PAS TOUCHER*/
-@media all and (max-width: 1100px){
+@media all and (max-width: 600px){
     .toggle{
         display: block;
         width: 40px;
         padding-left: 5%;
 
     }
+
     main{
         margin-left: 10%;    
     }
-    .conteneur1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .conteneur1 div{
-        margin-bottom: 12%;
-    }
     #barre-recherce{
        width: 30%;
     }
@@ -314,21 +308,6 @@ a{
         margin-left: 30%;
     }
 
-    .conteneur1 div img{
-       transform: none;
-       transition: none;
-    }
-
-    .conteneur1 div img:hover{
-        transform: none;
-        transition: none;
-    }
-     
-    .conteneur1 div p{
-        margin-left: 30%;
-    }
-
-    
     .menu{
         display: none;
     }
@@ -350,4 +329,29 @@ a{
     }
 
     /* NE PAS TOUCHER*/
+    /*Commencez votre code ici*/
+    .conteneur1 div img{
+        transform: none;
+        transition: none;
+     }
+ 
+     .conteneur1 div img:hover{
+         transform: none;
+         transition: none;
+     }
+      
+     .conteneur1 div p{
+         margin-left: 30%;
+     }
+
+     .conteneur1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteneur1 div{
+        margin-bottom: 12%;
+    }
+    /*Fin code ici*/
 }
