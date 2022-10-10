@@ -143,6 +143,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-right: 2px;
 }
 
 video{
@@ -286,7 +287,7 @@ a{
 /* SECTION MIDDLE FIN */
 
 /* NE PAS TOUCHER*/
-@media all and (max-width: 1100px){
+@media all and (max-width: 600px){
     .toggle{
         display: block;
         width: 40px;
