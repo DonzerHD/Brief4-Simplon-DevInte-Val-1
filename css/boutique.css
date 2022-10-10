@@ -148,7 +148,6 @@ main{
 
 video{
     width: 100%;
-    border: #0f0606 solid 1px;
 }
 
 
@@ -221,7 +220,6 @@ footer{
 }
 
 .conteneur1 div img{
-    border: rgb(53, 40, 40) 5px ridge;
     border-radius: 5%;
     transform: scale(1);
     transition: .3s ease-in-out;
@@ -245,7 +243,6 @@ footer{
     font-size: 20px;
     margin: 0;
     font-weight: 1000;
-    border: solid 1px black;
     margin-left: 3%;
     margin-right: 30%;
     background-color: #e2d1c3;
@@ -257,7 +254,6 @@ footer{
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     margin-left: 3%;
     color: #303030;
-    border: #0f0606 solid 2px;
 }
 
 span{
