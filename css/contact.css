@@ -270,10 +270,16 @@ fieldset{
     /* NE PAS TOUCHER*/
     /*Commencez votre code ici*/
 
-   
-    
+   .home {
 
+    display: none;
 
+   }
+ 
+
+fieldset { 
+    margin-right: 4%;
+}
 
        /*Fin code ici*/
 }
