@@ -147,14 +147,15 @@ main{
 }
 
 video{
-    width: 100%;
+    width: 90.3%;
+    margin: auto;
 }
 
 
 /* PROMO */
 .promo{
    width: 90%;
-   margin-left: 5%;
+   margin: auto;
    border-bottom: #0f0606 2px solid;
    border-right: #0f0606 2px solid;
    border-left: #0f0606 2px solid;
