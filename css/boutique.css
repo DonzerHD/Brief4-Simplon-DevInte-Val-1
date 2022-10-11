@@ -98,7 +98,7 @@ li a{
 }
 
 li a:hover{
-    color: #0f0606;
+    color: #83837c;
 }
 
 /* HEADER MAP */
@@ -127,6 +127,10 @@ iframe{
 .fb img{
     width: 50px;
     height: 50px;
+}
+
+.fb img:hover , .tw img:hover , .insta img:hover{
+    filter: invert(var(--value, 100%)); --value:100%;
 }
 
 .tw img{
