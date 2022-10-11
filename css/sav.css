@@ -50,13 +50,14 @@ header{
 
 h1{
     font-family: 'Italianno', cursive;
-    font-size: 150px;
-    font-weight: 400;
+    font-size: 100px;
+    font-weight: 50;
     padding-bottom: 0;
     margin-bottom: 0;
     height: 120px;
     margin-top: 3%;
     padding-top: 0;
+    text-align: center;
 }
 
 h2{
@@ -67,7 +68,10 @@ h2{
     font-style: italic;
     margin-bottom: 2%;
     font-weight: 600;
+    text-align: center;
+    font-size: 30px;
 }
+
 
 /* HEADER NAV */
 
@@ -137,7 +141,7 @@ section iframe{
 
 /* MAIN */
 main{
-    margin-left: 26.22%;
+    margin-left: 26%;
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     display: flex;
     flex-direction: column;
@@ -361,11 +365,18 @@ color: #303030;
     
 }
 
+<<<<<<< HEAD
+.contact{
+    text-align: left;
+}
+
+=======
 .renseigner{
     font-family: 'Maitree', serif;
     color: #303030;
 
 }
+>>>>>>> 2c5b7f10c29de6e682c9a126ed3ebb304ada9b18
 /*ON MIDDLE FIN */
 
 /* NE PAS TOUCHER*/
@@ -410,43 +421,40 @@ color: #303030;
        font-size: 70px;
     }
 
-    /* NE PAS TOUCHER*/
-   
-
-   @media screen and (max-width : 600px){
     .tel2 {
-    font-size: 20px;
-    margin-left: 25%;
-
-}
-.tel{
-    display: none;
-}
-.relation{
-    font-size: 15px;
-    margin-left: 1%;
-}
-
-.ducs2{
-    font-size: 20px;
-}
-.internet{
-    font-size: 20px;
-}
-
-.ducs3{
-    font-size: 15px;
-}
-
-.silhouette{
-    display: none;
-}
-
-.ducs{
-    font-size: 20px;
-}
-
-p{
-    font-size: 14px;
-}
-   }
+        font-size: 20px;
+        margin-left: 25%;
+    
+    }
+    .tel{
+        display: none;
+    }
+    .relation{
+        font-size: 15px;
+        margin-left: 1%;
+    }
+    
+    .ducs2{
+        font-size: 20px;
+    }
+    .internet{
+        font-size: 20px;
+    }
+    
+    .ducs3{
+        font-size: 15px;
+    }
+    
+    .silhouette{
+        display: none;
+    }
+    
+    .ducs{
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 14px;
+    }
+       }
+    /* NE PAS TOUCHER*/
