@@ -147,7 +147,7 @@ iframe{
 /* MAIN */
 main{
     margin-left: 26.15%;
-    background-image: linear-gradient(to top, #fff5ff 0%, #ebdcdc 100%);
+    background-image: linear-gradient(to top, #fff5ff 0%, #ececec 100%);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -174,7 +174,6 @@ video{
     margin-top: 1%;
     display: flex;
     justify-content: space-around;
-    border-bottom: black solid 2px;
     margin: 0;
     padding-right: 15%;
 }
@@ -192,7 +191,8 @@ video{
     padding-right: 50%;
     height: 30px;
     margin-top: 1.3%;
-    border: solid black 1px;
+    margin-bottom: 3%;
+    background-color: #faf1e9;
 }
 
 ::placeholder {
@@ -266,7 +266,11 @@ footer p
         display: block;
         width: 40px;
         padding-left: 5%;
+    }
 
+    .croix{
+        display: none;
+        width: 40px;
     }
 
     main{
@@ -300,6 +304,31 @@ footer p
     }
     h1{
        font-size: 70px;
+    }
+
+    .coco{
+        display: block;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .crabe{
+        display: none;
+    }
+
+    .menu1{
+        display: none;
+    }
+    
+    .menu2{
+        width: 10%;
+    }
+
+    .coucou{
+        display: block;
+    }
+
+    .ferme{
+        display: none;
     }
 
     /* NE PAS TOUCHER*/
