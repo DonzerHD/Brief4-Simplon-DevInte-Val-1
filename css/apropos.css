@@ -304,15 +304,12 @@ footer p
 
     /* NE PAS TOUCHER*/
     /*Commencez votre code ici*/
-
-@media all and (max-width: 600px){
-
-.imgFacade
+    .imgFacade
     {
         display: none;
 }
 
-.block
+    .block
     {
         display: flex;
         width: 40%;
@@ -320,10 +317,9 @@ footer p
         border-radius: 50%;
     }
 
-p
+    p
     {
         margin: 2%;
         font-size: small;
     }
-
 }
