@@ -202,6 +202,8 @@ footer{
     font-size: 60px;
    margin-left: 4%;
    padding-top: 2%;
+   color: #303030;
+   font-weight: bolder;
    
 }
 
@@ -210,6 +212,8 @@ footer{
     margin-left: 4%;
     margin-bottom: 1%;
     font-family: 'Maitree', serif;
+    color: #303030;
+
     
 }
 
@@ -218,6 +222,8 @@ footer{
     margin-left: 4%;
    margin-bottom: 1%;
     font-family: 'Maitree', serif;
+    color: #303030;
+
 }
 
 .pucegera{
@@ -227,6 +233,7 @@ footer{
     list-style-type: initial;
     margin-bottom: 1%;
     font-weight: lighter;
+    color: #303030;
 
 }
 .tel{
@@ -258,12 +265,15 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
 
 .ducs{
     font-size:35px;
+    color: #303030;
 }
 
 .relation{
     font-size: 18px;
     text-align: center;
     margin-left: 50px;
+    color: #303030;
+
 }
 
 .tel2{
@@ -272,6 +282,8 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
     font-weight: bolder;
     margin-top: 5%;
     margin-left: 7%;
+    color: #303030;
+
 }
 
 .cadre2{
@@ -293,6 +305,8 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
     font-size: 30px;
     font-weight: bolder;
     margin-left: 6%;
+    color: #303030;
+
 }
 
 .reseau{
@@ -313,6 +327,8 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
 border-width: 7px;
 border-color: rgb(251, 217, 205);
 background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
+color: #303030;
+
 
 
 }
@@ -346,12 +362,21 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
 
 .block2{
     margin-right: 3%;
+    
 }
 
+<<<<<<< HEAD
 .contact{
     text-align: left;
 }
 
+=======
+.renseigner{
+    font-family: 'Maitree', serif;
+    color: #303030;
+
+}
+>>>>>>> 2c5b7f10c29de6e682c9a126ed3ebb304ada9b18
 /*ON MIDDLE FIN */
 
 /* NE PAS TOUCHER*/
