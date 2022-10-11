@@ -389,7 +389,7 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
     }
 
     /* NE PAS TOUCHER*/
-    /*Commencez votre code ici*/
+   
 
    @media screen and (max-width : 600px){
     .tel2 {
@@ -428,5 +428,3 @@ p{
     font-size: 14px;
 }
    }
-
-       /*Fin code ici*/
