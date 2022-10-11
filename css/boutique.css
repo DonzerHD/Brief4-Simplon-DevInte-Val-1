@@ -34,6 +34,10 @@ header{
     display: none;
 }
 
+.croix{
+    display: none;
+}
+
 
 /* Header Logo */
 
@@ -143,7 +147,7 @@ iframe{
 /* MAIN */
 main{
     margin-left: 26.15%;
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background-image: linear-gradient(to top, #fff5ff 0%, #ebdcdc 100%);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -199,7 +203,6 @@ video{
     margin-left: 170%;
     padding-top: 10%;
 }
-
 /* FOOTER */
 
 footer{
@@ -214,7 +217,7 @@ footer{
     justify-content: space-between;
 	gap: 5%;
 	margin-top: 2%;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-right: 5%;
 }
 
@@ -248,7 +251,7 @@ footer{
     font-size: 20px;
     margin: 0;
     font-weight: 1000;
-    margin-left: 3%;
+    margin-left: 10%;
     margin-right: 30%;
     background-color: #e2d1c3;
 }
@@ -257,7 +260,7 @@ footer{
     margin-top: 2%;
     font-weight: 600;
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-    margin-left: 3%;
+    margin-left: 10%;
     color: #303030;
 }
 
@@ -271,7 +274,7 @@ span{
 .voirtout{
     text-align: center;
     border: 2px solid black;
-    margin-left: 35%;
+    margin-left: 40%;
     margin-right: 40%;
     background-color: beige;
     color: black;
@@ -292,8 +295,13 @@ a{
     .toggle{
         display: block;
         width: 40px;
-        padding-left: 5%;
+        padding-left: 3px;
 
+    }
+
+    .croix{
+        display: none;
+        width: 40px;
     }
 
     main{
@@ -327,6 +335,31 @@ a{
     }
     h1{
        font-size: 70px;
+    }
+
+    .coco{
+        display: block;
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .crabe{
+        display: none;
+    }
+
+    .menu1{
+        display: none;
+    }
+    
+    .menu2{
+        width: 10%;
+    }
+
+    .coucou{
+        display: block;
+    }
+
+    .ferme{
+        display: none;
     }
 
     /* NE PAS TOUCHER*/
