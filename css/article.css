@@ -146,7 +146,7 @@ main{
 }
 
 video{
-    width: 90%;
+    width: 90.1%;
     margin-left: 5%;
     border: #0f0606 solid 1px;
 }
@@ -226,7 +226,6 @@ footer{
 }
 .side_view{
     display: flex;
-    justify-content: left;
     flex-direction: column;
     width: 10%;
     order: 1;
@@ -241,6 +240,7 @@ footer{
 }
 article{
     width: 69%;
+    height: 35.4em;
     order: 3;
     background-color: white;
     border: solid black;
@@ -358,6 +358,7 @@ input{
         width: 80%;
         margin: auto;
         padding-bottom: 5%;
+        height: auto;
     }
 
     .container2{
@@ -370,6 +371,16 @@ input{
         margin-bottom: 2%;
     }
 
+    a{
+        width: 25em;
+        margin: auto;
+    }
+    video{
+        margin: 0;
+    }
+    .promo{
+        margin: 0;
+    }
 
 
         /*Fin code ici*/
