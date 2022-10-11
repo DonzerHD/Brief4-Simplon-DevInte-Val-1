@@ -345,6 +345,7 @@ input{
     .main_view{
         order: 1;
       margin: auto;
+      width: 60%;
     }
 
     .side_view{
@@ -368,6 +369,7 @@ input{
         display: block;
         margin-bottom: 2%;
     }
+
 
 
         /*Fin code ici*/
