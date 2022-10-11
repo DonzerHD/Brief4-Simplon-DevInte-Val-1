@@ -291,17 +291,12 @@ a{
 /* SECTION MIDDLE FIN */
 
 /* NE PAS TOUCHER*/
-@media all and (max-width: 800px){
+@media all and (max-width: 600px){
     .toggle{
         display: block;
         width: 40px;
-        padding-left: 3px;
+        padding-left: 5%;
 
-    }
-
-    .croix{
-        display: none;
-        width: 40px;
     }
 
     main{
@@ -335,31 +330,6 @@ a{
     }
     h1{
        font-size: 70px;
-    }
-
-    .coco{
-        display: block;
-        margin-left: 0%;
-        margin-top: 2%;
-    }
-    .crabe{
-        display: none;
-    }
-
-    .menu1{
-        display: none;
-    }
-    
-    .menu2{
-        width: 10%;
-    }
-
-    .coucou{
-        display: block;
-    }
-
-    .ferme{
-        display: none;
     }
 
     /* NE PAS TOUCHER*/

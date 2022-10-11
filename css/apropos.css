@@ -34,6 +34,10 @@ header{
     display: none;
 }
 
+.croix{
+    display: none;
+}
+
 
 /* Header Logo */
 
@@ -98,7 +102,7 @@ li a{
 }
 
 li a:hover{
-    color: #0f0606;
+    color: #83837c;
 }
 
 /* HEADER MAP */
@@ -129,6 +133,10 @@ iframe{
     height: 50px;
 }
 
+.fb img:hover , .tw img:hover , .insta img:hover{
+    filter: invert(var(--value, 100%)); --value:100%;
+}
+
 .tw img{
     width: 50px;
     height: 50px;
@@ -139,23 +147,23 @@ iframe{
 /* MAIN */
 main{
     margin-left: 26.15%;
-    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    background-image: linear-gradient(to top, #fff5ff 0%, #ebdcdc 100%);
     display: flex;
     flex-direction: column;
-    width: 98%;
-   
+    width: 100%;
+    padding-right: 2px;
 }
 
 video{
-    width: 100%;
-    border: #0f0606 solid 1px;
+    width: 90.3%;
+    margin: auto;
 }
 
 
 /* PROMO */
 .promo{
    width: 90%;
-   margin-left: 5%;
+   margin: auto;
    border-bottom: #0f0606 2px solid;
    border-right: #0f0606 2px solid;
    border-left: #0f0606 2px solid;
@@ -176,7 +184,7 @@ video{
     height: 40px;
     margin-top: 0;
     margin-right: 0;
-    padding-left: 1rem;
+    padding-left: 1%;
     padding-top: 15%;
 }
 
@@ -195,7 +203,6 @@ video{
     margin-left: 170%;
     padding-top: 10%;
 }
-
 /* FOOTER */
 
 footer{
