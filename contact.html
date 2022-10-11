@@ -56,7 +56,7 @@
     <main>
       <div class="chose">
         <input type="search" name="barre-recherce" id="barre-recherce"
-          placeholder="Rechercher une marque, un article...">
+          placeholder="Rechercher un article...">
         <a href="*"><img class="compte" src="img/account.png" alt=""></a>
         <a href="*"><img src="img/panier.png" alt=""></a>
       </div>
@@ -75,11 +75,11 @@
           <fieldset>
             <br>
             <label for="name"></label>
-            <input type="text" placeholder="Votre nom" name="nom" id="nom_input" required>
+            <input type="text" placeholder="Votre nom *" name="nom" id="nom_input" required>
             <br> <br>
 
             <label for="prenom"></label>
-            <input type="text" placeholder="Votre prénom" name="prénom" id="prenom_input" required>
+            <input type="text" placeholder="Votre prénom *" name="prénom" id="prenom_input" required>
             <br> <br>
 
             <label for="Votre Demande"></label>
@@ -93,11 +93,13 @@
             <br><br>
 
             <label for="email"></label>
-            <input type="email" placeholder="Votre Email" name="email" id="email_input" required>
+            <input type="email" placeholder="Votre Email *" name="email" id="email_input" required>
             <br><br>
 
             <label for="name"></label>
-            <input type="text" placeholder="N° de Téléphone" name="telephone" id="telephone_input" required>
+            <input type="text" placeholder="N° de Téléphone *" name="telephone *" id="telephone_input" required> <br> <br>
+            <input type="checkbox" value="Oui" id="field-5" sonotify="rappeltelephone" name="field-5" class="field_value"> <label for="field-5" class="field_label dinline">Cochez cette case si vous souhaitez être recontacté(e) par téléphone</label> 
+            
             <br><br>
 
 
@@ -106,6 +108,14 @@
             <br>
 
             <input type="submit" value="Envoyer" id="form_button" />
+  
+           
+
+            <br>
+            <h5> * Les données personnelles communiquées sont destinées à Ducsman et sont nécessaires aux fins de vous contacter. </h5> 
+            <h5> Pour en savoir plus sur vos droits et sur le traitement de vos données cliquez ici. </h5>
+
+
           </fieldset>
           <div>
              <img class="home" src="img/Businessman-In-Suit-Transparent-File.png" alt="" srcset="">
