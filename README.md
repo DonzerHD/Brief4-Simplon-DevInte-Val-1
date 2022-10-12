@@ -10,7 +10,7 @@ Géraldine B
 Padoue C
 
 # Description Projet :
- Créer le site d'un tailleur avec comme support une maquette et un charge graphique .
+ Créer le site d'un tailleur avec comme support une maquette et une charge graphique .
 
 # Tâches :
 Thomas L : Création du HEADER et de la page boutique
