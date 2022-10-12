@@ -214,10 +214,9 @@ footer{
 
 .img2, .imgFondateur
 {
-    display:inline-block;
+    display: inline-block;
     margin-left: 10%;
     border-radius: 5%;
-    gap: center;
 }
 
 .imgFacade
@@ -307,7 +306,7 @@ footer p
 
     .chef{
         height: 100%;
-        width: 10%;
+        width: 12%;
     }
 
     .mobile-menu{
@@ -315,7 +314,7 @@ footer p
     }
   
     .dur{
-        width: 50%;
+        width: 70%;
     }
     h1{
        font-size: 70px;
@@ -335,7 +334,7 @@ footer p
     }
     
     .menu2{
-        width: 10%;
+        width: 12%;
     }
 
     .coucou{
@@ -355,9 +354,21 @@ footer p
 
 .imgFondateur
 {
-    object-position: center;
+    display: block;
+    margin: auto;
 }
 
+.img2
+{
+    width: 100%;
+    margin: 2%;
+    display: block;
+}
+
+main
+{
+    align-items: center;
+}
 
     .block
     {
@@ -369,7 +380,7 @@ footer p
 
     p
     {
-        margin: 2%;
+        margin: 8%;
         font-size: small;
     }
 }
