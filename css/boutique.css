@@ -241,7 +241,7 @@ footer{
     transform: scale(1.3);
 }
 
-.conteneur1 article p{
+.conteneur1 article p, h3{
     text-align: center;
     margin: 0;
 }
@@ -250,8 +250,8 @@ footer{
     font-size: 20px;
     margin: 0;
     font-weight: 1000;
-    margin-left: 10%;
     background-color: #e2d1c3;
+    margin-bottom: 2%;
 }
 
 .texture{
@@ -302,7 +302,7 @@ a{
 /* NE PAS TOUCHER*/
 @media all and (max-width: 1600px){
 
-    .conteneur1 article p{
+    .conteneur1 article p, h3{
         text-align: center;
         margin-right: 35%;
     }
@@ -436,7 +436,7 @@ iframe{
          transition: none;
      }
       
-     .conteneur1 article p{
+     .conteneur1 article p, h3{
          margin:auto;
      }
 

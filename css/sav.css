@@ -442,11 +442,6 @@ margin-left: 5%;
     h1{
        font-size: 70px;
     }
-
-    h1{
-        font-size: 70px;
-     }
- 
      .coco{
          display: block;
          margin-left: 0%;
@@ -508,7 +503,7 @@ margin-left: 5%;
         
     }
 
-    .ducs, .relation, .tel2, .renseigner , .ducs2, a {
+    .ducs, .relation, .tel2, .renseigner , .ducs2, .reseau a{
         padding-left: 40%;
     }
     
