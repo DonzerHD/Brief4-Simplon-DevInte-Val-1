@@ -361,7 +361,7 @@ footer p
 .img2
 {
     width: 100%;
-    margin: 0;
+    margin: 2%;
     display: block;
 }
 
@@ -380,7 +380,7 @@ main
 
     p
     {
-        margin: 2%;
+        margin: 8%;
         font-size: small;
     }
 }
