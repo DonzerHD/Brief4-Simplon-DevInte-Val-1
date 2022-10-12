@@ -217,7 +217,6 @@ footer{
     display:inline-block;
     margin-left: 10%;
     border-radius: 5%;
-    gap: center;
 }
 
 .imgFacade
@@ -355,9 +354,14 @@ footer p
 
 .imgFondateur
 {
-    object-position: center;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
+main
+{
+    align-items: center;
+}
 
     .block
     {
