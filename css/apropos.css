@@ -214,7 +214,7 @@ footer{
 
 .img2, .imgFondateur
 {
-    display:inline-block;
+    display: inline-block;
     margin-left: 10%;
     border-radius: 5%;
 }
@@ -354,8 +354,15 @@ footer p
 
 .imgFondateur
 {
-    margin-left: 0%;
-    margin-right: 0%;
+    display: block;
+    margin: auto;
+}
+
+.img2
+{
+    width: 100%;
+    margin: 0;
+    display: block;
 }
 
 main
