@@ -353,6 +353,12 @@ footer p
         display: none;
 }
 
+.imgFondateur
+{
+    object-position: center;
+}
+
+
     .block
     {
         display: flex;
