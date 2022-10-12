@@ -236,7 +236,7 @@ footer{
 
 .conteneur1-child11 img{
     height: 90%;
-    width: 80%;
+    width: 84%;
 }
 
 .conteneur1 div img:hover{
@@ -288,6 +288,17 @@ a{
     text-decoration: none;
 }
 
+#scroll_to_top {
+    position: fixed;
+    width: 35px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 35px;
+  }
+
 
 /* SECTION MIDDLE FIN */
 
@@ -318,7 +329,10 @@ a{
     li{
    margin-bottom: 8%;
 }
-
+  .conteneur1-child11 img{
+    height: 90%;
+     width: 66%;
+}
 
 /* HEADER MAP */
 
@@ -338,10 +352,6 @@ iframe{
     margin-right: 5%;
 }
 
-.insta img{
-    width: 50px;
-    height: 50px;
-}
 
 }
     

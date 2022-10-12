@@ -217,6 +217,7 @@ footer{
     display:inline-block;
     margin-left: 10%;
     border-radius: 5%;
+    gap: center;
 }
 
 .imgFacade
@@ -255,6 +256,20 @@ footer p
 {
     text-align: center;
 }
+
+#scroll_to_top {
+    position: fixed;
+    width: 35px;
+    height: 25px;
+    bottom: 50px;
+    right: 30px;
+  }
+  #scroll_to_top img {
+    width: 35px;
+  }
+
+
+
 
 /* SECTION MIDDLE FIN */
 
@@ -337,6 +352,12 @@ footer p
     {
         display: none;
 }
+
+.imgFondateur
+{
+    object-position: center;
+}
+
 
     .block
     {
