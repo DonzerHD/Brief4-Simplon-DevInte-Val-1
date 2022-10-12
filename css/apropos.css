@@ -355,13 +355,12 @@ footer p
 .imgFondateur
 {
     margin-left: 0%;
-    margin-right: 90%;
+    margin-right: 0%;
 }
 
-p
+main
 {
-    text-align: justify;
-   
+    align-items: center;
 }
 
     .block
