@@ -474,7 +474,7 @@ margin-left: 5%;
 
     .tel2 {
         font-size: 18px;
-        margin-left: 7%;
+        margin-right: 20%;
     
     }
     .tel{
@@ -482,7 +482,8 @@ margin-left: 5%;
     }
     .relation{
         font-size: 15px;
-        margin-left: 1%;
+      
+
     }
     
     .ducs2{
@@ -504,11 +505,27 @@ margin-left: 5%;
     
     .ducs{
         font-size: 20px;
-        margin-left: 1%;
+        
+    }
+
+    .ducs, .relation, .tel2, .renseigner , .ducs2, a {
+        padding-left: 40%;
     }
     
     p{
         font-size: 14px;
     }
+
+   .cadre1 ,.internet,.cadre2
+   {
+    padding-right: 30%;
+   }
+
+   .renseigner{
+    margin-right: 5%;
+    margin: 1%;
+    text-align: center;
+   }
+   
        }
     /* NE PAS TOUCHER*/

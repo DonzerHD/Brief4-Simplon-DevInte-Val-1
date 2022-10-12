@@ -242,7 +242,7 @@ footer{
     cursor: pointer;
     margin:0.5rem;
 }
-article{
+.description{
     width: 69%;
     height: 35.4em;
     order: 3;
@@ -295,6 +295,15 @@ article input{
     padding-bottom:1% ;
     margin-top: 5%;
 }
+
+figcaption h4{
+    margin: 0%;
+}
+.container2 a{
+    width: 28.5%;
+    margin: auto;
+}
+
 /* SECTION MIDDLE FIN */
 
 /* NE PAS TOUCHER*/
@@ -396,7 +405,7 @@ article input{
         width: 100%;
         justify-content: space-around;
     }
-    article{
+    .description{
         width: 80%;
         margin: auto;
         padding-bottom: 5%;
@@ -422,7 +431,7 @@ article input{
         padding-right: 49%;
         margin-right: 5%;
     }
-    img:hover{
+    .Middle img:hover{
         transform: none;
     }
     .container2 a img{
