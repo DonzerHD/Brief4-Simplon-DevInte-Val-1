@@ -344,7 +344,7 @@ article input{
     }
   
     .dur{
-        width: 50%;
+        width: 70%;
     }
     h1{
        font-size: 70px;
@@ -364,7 +364,7 @@ article input{
     }
     
     .menu2{
-        width: 10%;
+        width: 12%;
     }
 
     .coucou{
@@ -388,7 +388,7 @@ article input{
     .main_view{
         order: 1;
       margin: auto;
-      width: 60%;
+      width: 70%;
     }
 
     .side_view{
@@ -415,7 +415,7 @@ article input{
     }
 
     a{
-        width: 25em;
+        width: 19.5em;
         margin: auto;
     }
     #barre-recherce{
@@ -423,6 +423,14 @@ article input{
         padding-right: 49%;
         margin-right: 5%;
     }
+    img:hover{
+        transform: none;
+    }
+    .container2 a img{
+        width: 14em;
+        height: 25em;
+    }
+
     
 
         /*Fin code ici*/
