@@ -271,22 +271,22 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
 .ducs{
     font-size:35px;
     color: #303030;
+    text-align: center;
 }
 
 .relation{
     font-size: 18px;
     text-align: center;
-    margin-left: 50px;
     color: #303030;
 
 }
 
 .tel2{
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
     font-weight: bolder;
-    margin-top: 5%;
-    margin-left: 7%;
+    margin-top: 7%;
+    margin-left: 2%;
     color: #303030;
 
 }
@@ -306,18 +306,18 @@ background-image: linear-gradient(rgb(255, 255, 255), rgb(227, 213, 174));
 
 }
 
+
 .ducs2{
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 6%;
     color: #303030;
 
 }
 
 .reseau{
-   font-size: 20px;
+   font-size: 15px;
    font-weight: bolder;
-   margin-left: 7%;
+   margin-left: 5%;
 }
 
 .internet{
@@ -336,10 +336,11 @@ color: #303030;
 
 
 
+
 }
 .ducs3{
-    font-size: 30px;
-
+    font-size: 20px;
+margin-left: 5%;
 }
 
 .silhouette{
@@ -425,7 +426,7 @@ color: #303030;
     }
   
     .dur{
-        width: 50%;
+        width: 70%;
     }
     h1{
        font-size: 70px;
@@ -449,7 +450,7 @@ color: #303030;
      }
      
      .menu2{
-         width: 10%;
+         width: 12%;
      }
  
      .coucou{
@@ -461,8 +462,8 @@ color: #303030;
      }
 
     .tel2 {
-        font-size: 20px;
-        margin-left: 25%;
+        font-size: 18px;
+        margin-left: 7%;
     
     }
     .tel{
@@ -482,6 +483,8 @@ color: #303030;
     
     .ducs3{
         font-size: 15px;
+        margin-left: 1%;
+
     }
     
     .silhouette{
@@ -490,6 +493,7 @@ color: #303030;
     
     .ducs{
         font-size: 20px;
+        margin-left: 1%;
     }
     
     p{
