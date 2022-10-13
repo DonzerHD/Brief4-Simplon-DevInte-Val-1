@@ -470,6 +470,8 @@ margin-left: 5%;
     .tel2 {
         font-size: 18px;
         margin-right: 20%;
+        padding-left: 40%;
+
     
     }
     .tel{
@@ -477,7 +479,8 @@ margin-left: 5%;
     }
     .relation{
         font-size: 15px;
-      
+        padding-left: 50%;
+
 
     }
     
@@ -486,11 +489,14 @@ margin-left: 5%;
     }
     .internet{
         font-size: 20px;
+        
+
     }
     
     .ducs3{
         font-size: 15px;
         margin-left: 1%;
+        padding-left: 4%;
 
     }
     
@@ -500,10 +506,6 @@ margin-left: 5%;
     
     .ducs{
         font-size: 20px;
-        
-    }
-
-    .ducs, .relation, .tel2, .renseigner , .ducs2, .reseau a{
         padding-left: 40%;
     }
     
@@ -520,6 +522,8 @@ margin-left: 5%;
     margin-right: 5%;
     margin: 1%;
     text-align: center;
+    padding-left: 50%;
+
    }
    
        }
