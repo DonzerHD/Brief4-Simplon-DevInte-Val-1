@@ -153,12 +153,6 @@ main{
     padding-right: 2px;
 }
 
-video{
-    width: 90.3%;
-    margin: auto;
-}
-
-
 /* PROMO */
 .promo{
    width: 90%;
@@ -342,6 +336,10 @@ footer p
 
     .ferme{
         display: none;
+    }
+
+    .fond{
+        width: 100%;
     }
 
     /* NE PAS TOUCHER*/
