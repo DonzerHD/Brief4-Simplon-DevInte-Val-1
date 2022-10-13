@@ -402,7 +402,7 @@ figcaption h4{
     .side_view{
         order: 2;
         flex-direction: row;
-        width:22%;
+        width:100%;
         justify-content: space-between;
     }
     .description{
