@@ -42,15 +42,14 @@ header{
 /* Header Logo */
 
 .logo-titre{
-    padding-left: 10%;
     background-color: white;
-    margin-left: 4%;
-    margin-right: 12%;
+    margin: auto;
     padding-left: 2%;
     padding-bottom: 0.2%;
     margin-bottom: 10%;
     border: ridge black 2px;
     margin-top: 3%;
+    width: 80.2%;
 }
 
 h1{
@@ -120,7 +119,7 @@ iframe{
     display: flex;
     justify-content: space-evenly;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-right: 15%;
 }
 
 .insta img{
@@ -153,12 +152,6 @@ main{
     width: 100%;
     padding-right: 2px;
 }
-
-video{
-    width: 90.3%;
-    margin: auto;
-}
-
 
 /* PROMO */
 .promo{
@@ -343,6 +336,10 @@ footer p
 
     .ferme{
         display: none;
+    }
+
+    .fond{
+        width: 100%;
     }
 
     /* NE PAS TOUCHER*/

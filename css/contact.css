@@ -40,16 +40,14 @@ header{
 /* Header Logo */
 
 .logo-titre{
-    padding-left: 10%;
     background-color: white;
-    margin-left: 4%;
-    margin-right: 12%;
+    margin: auto;
     padding-left: 2%;
     padding-bottom: 0.2%;
     margin-bottom: 10%;
     border: ridge black 2px;
     margin-top: 3%;
-  
+    width: 80.2%;
 }
 
 h1{
@@ -123,7 +121,7 @@ section iframe{
     display: flex;
     justify-content: space-evenly;
     margin-top: 3%;
-    margin-right: 5%;
+    margin-right: 15%;
 }
 
 
@@ -147,16 +145,11 @@ section iframe{
 
 /* MAIN */
 main{
-    margin-left: 26.22%;
+    margin-left: 26.15%;
     background-image: linear-gradient(to top, #fff5ff 0%, #ececec 100%);
     display: flex;
     flex-direction: column;
     width: 100%;
-}
-
-video{
-    width: 90.3%;
-    margin: auto;
 }
 
 /* MAIN CHOSE*/
@@ -248,6 +241,11 @@ fieldset{
 
 /* NE PAS TOUCHER*/
 @media all and (max-width: 1100px){
+
+    .fond{
+        width: 99.90%;
+        margin: auto;
+    }
     .toggle{
         display: block;
         width: 40px;
@@ -326,10 +324,19 @@ fieldset{
     display: none;
 
    }
+
+   .titre2{
+    margin: auto;
+    width: 90%;
+   }
  
 
 fieldset { 
     margin-right: 4%;
+}
+
+.conteneur-1{
+    margin-left: 3%;
 }
 
        /*Fin code ici*/
