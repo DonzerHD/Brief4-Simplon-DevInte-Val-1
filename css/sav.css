@@ -518,8 +518,11 @@ margin-left: 5%;
     margin: 1%;
     text-align: center;
     padding-left: 50%;
+}
 
-   }
+.fond{
+    width: 100%;
+}
    
        }
     /* NE PAS TOUCHER*/

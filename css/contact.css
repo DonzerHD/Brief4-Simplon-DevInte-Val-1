@@ -316,6 +316,10 @@ fieldset{
         display: none;
     }
 
+    .fond{
+        width: 100%;
+    }
+
     /* NE PAS TOUCHER*/
     /*Commencez votre code ici*/
 
@@ -338,6 +342,7 @@ fieldset {
 .conteneur-1{
     margin-left: 3%;
 }
+
 
        /*Fin code ici*/
 }
